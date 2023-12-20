@@ -737,7 +737,7 @@ public synchronized void receiveMsg(String move) {
     }    
         if (move.startsWith("9_X")) {
             if (boardButtons[2][2].getText().isEmpty()) {
-                boardButtons[2][2].setText("O");
+                boardButtons[2][2].setText("X");
                 boardButtons[2][2].setEnabled(false);
                 boardButtons[2][2].setFont((new Font(Font.SERIF, Font.PLAIN, 100)));
                 HWIN3++;
@@ -795,7 +795,7 @@ public synchronized void receiveMsg(String move) {
 
         }
         if (move.startsWith("D_R_A_W")) {
-            JOptionPane.showMessageDialog(GameGUI.this, "YALL BOTH TOOK AN L, DRAW");
+            JOptionPane.showMessageDialog(GameGUI.this, "Both Lost A Draw Has Occured");
             resetBoardPanel();
             enableAllButtons();            
             //JOptionPane.showMessageDialog(GameGUI.this, "Player Has Won");

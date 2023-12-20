@@ -30,5 +30,4 @@ We encountered challenges in ensuring effective communication between the server
 5. Ensure not to click on the GUI when it is not your turn to avoid incorrect moves.
 
 # Group Members
-Alina Jslisi
-Gabby Peña
+Alina Jalisi and Gabby Peña
